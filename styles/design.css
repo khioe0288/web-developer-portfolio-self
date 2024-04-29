@@ -181,13 +181,13 @@ main{
     padding: 0px 150px 30px;
 }
 
-.resume-points{
+.work-points{
     display: flex;
     justify-content: space-around;
 
 }
 
-.resume-cards{
+.work-cards{
     padding: 30px;
     margin-top: 30px;
     margin-right: 20px;
@@ -211,3 +211,47 @@ main{
 
 /* education & experience section styles start */
 
+.resume{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.resume-heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.resume-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.resume-year{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.resume-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-resume{
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* education & experience section styles end */
