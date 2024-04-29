@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* shared styles */
+
+/* buttons */
+
+.btn-primary{
+    color: #FFF;
+    background-color: rgb(253, 110, 10);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(117, 117, 117, 0.801);
+}
+
+/* header section */
+
+header{
+    background-color: rgb(255, 248, 243);
+}
+
+/* Navigation Menu Styles */
+
+.navigate{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 220px;
+}
+
+.navigate ul li{
+    display: inline;
+}
+
+.navigate ul li a{
+    text-decoration: none;
+}
+
+.nav-point{
+    align-items: center;
+}
+
+.nav-btn{
+    margin-right: 20px;
+}
+
+.navigate>h3{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.odd-r{
+    color: rgb(253, 110, 10);
+}
+
+/* Banner Styles */
+
+header{
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom 40px left 30px;
+    /* background-size: auto, 5%; */
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    padding: 0 220px;
+    max-width: 585px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color: rgb(71, 71, 71);
+}
+
+.banner-name{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+    color: rgb(24, 24, 24);
+}
+
+.banner-description{
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+    color: rgb(117, 117, 117);
+}
+
+.banner-img{
+    margin: 0;
+    padding: 0 40px;
+}
