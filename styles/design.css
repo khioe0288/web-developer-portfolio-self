@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
@@ -8,7 +8,7 @@
 
 /* buttons */
 
-.btn-primary{
+.btn-primary {
     color: #FFF;
     background-color: rgb(253, 110, 10);
     font-size: 20px;
@@ -19,88 +19,195 @@
     box-shadow: 1px 1px 10px rgba(117, 117, 117, 0.801);
 }
 
+/* Section Designs */
+
+.main-section {
+    padding: 130px 150px;
+    border-radius: 10px;
+    background-color: rgb(255, 248, 243);
+    margin: 130px 0;
+    justify-content: space-around;
+}
+
+.section-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* header section */
 
-header{
+header {
     background-color: rgb(255, 248, 243);
 }
 
 /* Navigation Menu Styles */
 
-.navigate{
+.navigate {
     align-items: center;
     display: flex;
     justify-content: space-between;
     padding: 50px 220px;
 }
 
-.navigate ul li{
+.navigate ul li {
     display: inline;
 }
 
-.navigate ul li a{
+.navigate ul li a {
     text-decoration: none;
 }
 
-.nav-point{
+.nav-point {
     align-items: center;
 }
 
-.nav-btn{
+.nav-btn {
     margin-right: 20px;
 }
 
-.navigate>h3{
+.navigate>h3 {
     font-size: 45px;
     font-weight: 800;
 }
 
-.odd-r{
+.odd-r {
     color: rgb(253, 110, 10);
 }
 
 /* Banner Styles */
 
-header{
+header {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, bottom 40px left 30px;
     /* background-size: auto, 5%; */
 }
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     padding: 0 220px;
     max-width: 585px;
 }
 
-.banner-greetings{
+.banner-greetings {
     font-size: 45px;
     font-weight: 600px;
     margin-bottom: 20px;
     color: rgb(71, 71, 71);
 }
 
-.banner-name{
+.banner-name {
     font-size: 85px;
     font-weight: 700px;
     margin-bottom: 20px;
     color: rgb(24, 24, 24);
 }
 
-.banner-description{
+.banner-description {
     font-size: 18px;
     font-weight: 400px;
     margin-bottom: 20px;
     color: rgb(117, 117, 117);
 }
 
-.banner-img{
+.banner-img {
     margin: 0;
     padding: 0 40px;
 }
+
+/* Header End */
+
+/* Main Body Start */
+
+main{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+/* About Me section styles start */
+
+
+
+.about-me-points{
+ display: flex;
+ justify-content: space-around;
+ margin-top: 30px;
+}
+
+.about-me-info{
+    margin-top: 20px;
+}
+
+.about-me-info-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+
+.about-me-info-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+
+/* about me section styles end */
+
+
+/* what i do section styles start */
+
+.main-section-2 {
+    border-radius: 10px;
+    margin: 0;
+    justify-content: space-around;
+    padding-bottom: 130px;
+}
+
+.what-i-do{
+    padding: 0px 150px 30px;
+}
+
+.resume-points{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.resume-cards{
+    padding: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 50px rgba(128, 128, 128, 0.253);
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+}
+
+.card-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+
+/* what i do section styles end */
+
+
+/* education & experience section styles start */
+
